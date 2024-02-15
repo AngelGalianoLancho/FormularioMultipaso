@@ -1,0 +1,101 @@
+.paso {
+    display: none;
+}
+
+.paso:first-child {
+    display: block;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+.shadow {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
+}
+
+.formulario {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.formulario h2 {
+    color: #333;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.btn {
+    border-radius: 20px;
+    padding: 8px 20px;
+    font-size: 16px;
+}
+
+.btn-outline-primary {
+    border-color: #007bff;
+    color: #007bff;
+}
+
+.btn-outline-primary:hover {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.btn-outline-primary.disabled,
+.btn-outline-primary:disabled {
+    opacity: 0.5;
+}
+
+.progress {
+    height: 20px;
+    border-radius: 10px;
+    background-color: #f3f4f6;
+}
+
+.progress-bar {
+    border-radius: 10px;
+    background-color: #007bff;
+}
+
+.form-check-input[type="checkbox"],
+.form-check-input[type="radio"] {
+    margin-right: 10px;
+}
+
+label.form-check-label {
+    margin-bottom: 0;
+}
+
+.form-check-inline {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.form-check {
+    margin-bottom: 15px;
+}
+
+@media (max-width: 576px) {
+    .container {
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        margin-top: 30px;
+    }
+}
+
+@media (max-width: 992px) {
+    .container {
+        margin-top: 40px;
+    }
+}
